@@ -1,0 +1,17 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "a basic todo app",
+  "main": "app.js",
+  "author": "NichuNaizam",
+  "license": "MIT",
+  "scripts": {
+    "test": "electron .",
+    "build": "electron-packager . Todo App"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^16.0.2",
+    "electron-packager": "^15.4.0"
+  }
+}

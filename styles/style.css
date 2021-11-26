@@ -1,0 +1,49 @@
+body {
+    background-color: gray;
+}
+
+.todo-title {
+    text-align: center;
+}
+
+#todo-list {
+    list-style: none;
+}
+
+.controls-container {
+    width: 100%;
+    position: fixed;
+    top: 93%;
+}
+
+.controls-container input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.controls-container button {
+    border-color: white;
+    border: none;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+
+    transition: all 150ms linear;
+}
+
+.controls-container button:hover {
+    background-color: rgb(3, 130, 161);
+}
+
+.todo-item {
+    background-color: gray;
+    padding: 20px 5px;
+
+    transition: 0.3s all linear;
+}
+
+.todo-item:hover {
+    background-color: white;
+}
